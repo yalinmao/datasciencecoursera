@@ -33,7 +33,22 @@ inference involves both estimating quantity you care about and your uncertainty 
 inference depends heavily both on the population and the sampling scheme
 
 * Presictive analyses
+goal: to use the data on some objects to predict values for another object
+if X predicts Y it does not mean that X causes Y
+accurate prediction depends heavily on measuring the right variables
+although there are better and worse prediction models, more data and a simple model works really well
+prediction is very hard, especially about the future references
 
 * Causal analyses
+goal: to find out what happens to one variable when you make another variable change
+usually randmized studies are required to identify causation
+there are approaches to inferring causation in non-randomized studies, but they are complicated and sensitive to assumptions
+causal relationship are usually identified as average effects, but may not apply to every individual
+causal models are usually the "gold standard" for data analysis
 
 * Mechanistic analyses
+goal: understand the exact changes in variables that lead to changes in other variables for individual objects
+incredibly hard to infer, except in aimple situations
+usually modeled by a deterministic set of euqations (science/engineering)
+generally the random component of the data is measurement error
+if the equations are known but the parameters are not, they may be inferred with data analysis
