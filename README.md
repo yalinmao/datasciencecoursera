@@ -1,7 +1,41 @@
 # Data-Scientist-s-Toolbox
 Data Science Course
 
-## Command Line Interface
+## Command Line Interface (CLI)  
+directories=folders  
+root directory: directory at the top of the tree (/)
+home directory: contains personal files (~)  
+navigate directories: windows search Git Bash, Mac search terminal  
+* pwd: to search the path to your working directory  
+command: is the CLI command which does a specific task  
+flags: are options we give to the command to trigger certain behaviors, preceded by a -  
+arguments : can be what the command is going to modify, or other options for the command  
+(pwd is a command that requires no flags or arguments)  
+* clear: will clear out the commands in current CLI windows  
+* ls: lists files and folders in current directory  
+ls -a: lists hidden and unhidden files and folders  
+ls -al: lists details for hidden and unhidden files and folders  
+(-a and -l are flags, they can be combined into flag -al)  
+* cd: stands for "change directory"  
+cd takes as an argument the directory you want to visit  
+cd with no argument takes you to your home directory  
+cd.. allows you to change directory to one level above your current directory  
+* mkdir: stands for "make new directory"  
+mkdir takes as an argument the name of the directory you're creating  
+* touch: creates an empty file  
+* cp: stands for "copy"  
+cp takes as its first argument a file, and as its second argument the path to where you want the file to be copied  
+cp can also be used for copying the contents of directories, but you must use the "-r" flag  
+the line: cp -r Documents More_docs copies the contents of Documents into More_docs  
+* rm: stands for "remove" or "delete"  
+rm take sthe name of a file you wish to remove as its argument  
+you can use rm to delete entire directories and their contents by using the "-r" flag  
+be very careful when you do this, there is no undo an rm  
+* mv: stands for "move"  
+with mv you can move files between directories  
+you can use mv to rename files (mv oldname_file newname_file)  
+* echo: will print whatever arguments you provide  
+* date: will print today's date  
 
 ## Basic Git Commands
 
