@@ -13,7 +13,7 @@ have 3 "#": ### This is a tertiary heading
 
 ## Types of Questions
 ### * Descriptive analyses
-goal:
+goal: describe a set of data  
 the first kind of data analysis performed  
 most commonly applied to census data  
 the description and interpretation are different steps  
@@ -53,3 +53,13 @@ incredibly hard to infer, except in aimple situations
 usually modeled by a deterministic set of euqations (science/engineering)  
 generally the random component of the data is measurement error  
 if the equations are known but the parameters are not, they may be inferred with data analysis  
+
+## What is data?
+Data are values of qualitative or quantitative variables, belonging to a set of items.
+
+## Experimental Design
+data sharing at:
+https://github.com/  
+http://figshare.com/  
+http://github.com/jtleek/datasharing  
+
